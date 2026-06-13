@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF1A73E8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF1A73E8"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type something..."
+            android:inputType="text"
+            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnRender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Render Handwriting"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FF1A73E8"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSharpen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sharpen"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="#FF1A73E8"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/btnExport"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Export PNG"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="#FF1A73E8"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.example.fontgenerator.typing.RenderView
+        android:id="@+id/renderView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="12dp"/>
+
+</LinearLayout>
