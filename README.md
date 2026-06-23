@@ -6,7 +6,7 @@ An Android app that captures your unique handwriting style and converts any type
 
 ## Screenshots
 
-<img src="screenshots/home-screen.png" width="320"> <img src="screenshots/draw-letter.png" width="320"> <img src="screenshots/typing-preview.png" width="320">
+<img src="screenshots/home-screen.jpeg" width="320"> <img src="screenshots/draw-letter.jpeg" width="320"> <img src="screenshots/typing-preview.jpeg" width="320">
 
 ## ✨ Features
 
